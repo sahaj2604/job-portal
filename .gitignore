@@ -1,0 +1,71 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.svelte-kit/
+.vite/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+mongodb.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+*.orig
+
+# Static files cache
+.cache/
+public/static/
+
+# Coverage reports
+coverage/
+*.lcov
+*.lcov.info
+
+# Dependency directories
+bower_components/
+
+# Test files
+*.test.js
+*.test.ts
+*.spec.js
+*.spec.ts
+
+# Git merge conflict files
+*.orig
